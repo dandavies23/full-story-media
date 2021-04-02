@@ -1,68 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Story Media | Making entrepreneurs famous</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/e8a22323b6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <article class="container">
-         <! -- Hero image logo and nav -->
-         <section class="hero">
-         <! -- image to decide on size either 1200 or 2400 px-->
-         <! -- Logo on left nav on right -->
-         <ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">The Full Story</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Media Secrets</a>
-  </li>
-    </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Sign-up</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
-</ul> 
-        </section>       
-           
-        <! -- main pitch -->
-        <section class="pitch">
-            <h2 class="text-uppercase">Every business has a story <span class="spotlight">let's find yours</span></h2> 
-             <div class="pitch-bullets">
-                <p>You’ve created a business, made a discovery, pioneered a technology and seen the chance to create a better world.</p>
-                <p>Now, the world needs to know about it.</p>
-                <p>We can help entrepreneurial businesses to tell powerful stories about themselves.</p>
-                <p>The sorts of stories major broadcasters and publishers want to tell their audiences.</p>
-                <p>The sorts of stories that people want to tell one another.</p>
-                <p>The sorts of stories that can travel far and wide for long periods of time and, ultimately, change the world.</p>
-             </div>
-        </section>
+    <div class="container-fluid container-hero">
+        <div class="row">
+            <div class="col-12">
+                <img src="images/jonandcorinemainhero.jpg" class="img-fluid" alt="Responsive image">
+                <nav class="navbar navbar-light bg-light navbar-expand-sm">
+                    <a href="/" class="navbar-brand">Full Story Media</a>
 
-        <! -- nav CTA -- >
-        <section class="navCTA">
-            <h2 class="text-uppercase">Want to learn <span class="spotlight">more?</span></h2>
-        <! block of 4 solid yellow circle buttons>
-            <div class="circ-nav-cta">
-                <p span="circ-cta">Read a book</p>
-                <p span="circ-cta">Attend a workshop</p>
-                <p span="circ-cta">We'll guide you</p>
-                <p span="circ-cta">About us and our clients</p>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                        <ul class="navbar-nav ml-auto">
+                            <li class="active nav-item ml-2">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item ml-2">
+                                <a class="nav-link" href="/about">The Full Story</a>
+                            </li>
+                            <li class="nav-item ml-2">
+                                <a class="nav-link" href="/services">Media Secrets</a>
+                            </li>
+                            <li class="nav-item ml-2">
+                                <a class="nav-link" href="/signup">Sign-up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </section>
+        </div>
+    </div>
+           
+                        <! -- main pitch -->
+                        <div class="container pitch-container">
+                            <section class="text-center">
+                                <div class="row">
+                                    <div class="col-12">
 
-        <! -- full-width-video -- > 
+                                        <h2>Every business has a story <span
+                                                class="spotlight">let's
+                                                find
+                                                yours</span></h2>
 
-        <! -- splash-CTA -- >
-        <section class="splash-cta">
-            <button type="button" class="btn btn-warning"><h1 class="text-uppercase">What's your story?</h1></button>
-        </section>
-    </article>
+                                    </div>
+                                </div>
+                            </section>
+
+
+                            <section class="pitch-bullets">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="far fa-circle"></i> You’ve created a business, made a discovery,
+                                            pioneered a
+                                            technology and seen the chance
+                                            to create a better world.</p>
+                                        <p><i class="far fa-circle"></i> Now, the world needs to know about it.</p>
+                                        <p><i class="far fa-circle"></i> We can help entrepreneurial businesses to tell
+                                            powerful
+                                            stories about themselves.</p>
+                                        <p><i class="far fa-circle"></i> The sorts of stories major broadcasters and
+                                            publishers want
+                                            to tell their audiences.</p>
+                                        <p><i class="far fa-circle"></i> The sorts of stories that people want to tell
+                                            one
+                                            another.
+                                        </p>
+                                        <p><i class="far fa-circle"></i> The sorts of stories that can travel far and
+                                            wide
+                                            for long
+                                            periods of time and,
+                                            ultimately, change the world.</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <! -- nav CTA -->
+                            <div class="container nav-cta-container">
+                                <section class="navCTAhead">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h2 class="text-center">Want to learn <span class="spotlight">more?</span></h2>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <! block of 4 solid yellow circle buttons>
+                                    <section class="container circ-nav-cta">
+                                        <div class="row">
+                                            <div class="d-flex justify-content-center col-12 col-lg-12">
+                                                <button type="button" class="btn-lg btn-outline-warning mr-2">Read book</button>
+                                                <button type="button" class="btn-lg btn-outline-warning mr-2">Workshop</button>
+                                                <button type="button" class="btn-lg btn-outline-warning mr-2">Serviced</button>
+                                                <button type="button" class="btn-lg btn-outline-warning mr-2">About us</button>
+                        
+                                    
+                                            </div>
+                                        </div>
+                                    </section>
+                            </div>
+                            <! -- full-width-video -->
+                                <div class="container mt-4 video-container">
+                                    <section class="video">
+                                                <div class="embed-responsive embed-responsive-16by9 d-none d-md-block">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gz31tU4lePk" allowfullscreen></iframe>
+                                                </div>
+                                    </section>
+                                </div>
+
+                                <! -- splash-CTA -->
+                                    <div class="container splash-container mt-4">
+                                        <section class="splash-cta">
+
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <button type="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal"
+                                                        data-target="#signUpModal">
+                                                        <h1 class="text-uppercase">What's your story?</h1>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="modal" tabindex="-1" id="signUpModal">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title text-uppercase">What's your story?</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <!-- POST url should be replaced with db for datagrab when decided -->
+                                                            <form action="https://formdump.codeinstitute.net/"
+                                                                method="POST"></form>
+
+                                                            <label for="fname">First Name</label>
+                                                            <input type="text" class="form-control" name="first_name"
+                                                                id="fname" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="lname">Last Name</label>
+                                                            <input type="text" class="form-control" name="last_name"
+                                                                id="lname" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="company">Company</label>
+                                                            <input type="text" class="form-control" name="company"
+                                                                id="company" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="email">Email Address</label>
+                                                            <input type="email" class="form-control"
+                                                                name="email_address" id="email" required
+                                                                aria-describedby="emailHelp">
+                                                            <small id="emailHelp" class="form-text text-muted">We'll
+                                                                never share your email with anyone
+                                                                else.</small>
+                                                        </div>
+                                                        <p>How do you want to learn?</p>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="book"
+                                                                id="book">
+                                                            <label class="form-check-label" for="book">
+                                                                Read a book
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                value="video" id="video">
+                                                            <label class="form-check-label" for="video">
+                                                                Inspiring video
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                value="workshop" id="workshop">
+                                                            <label class="form-check-label" for="workshop">
+                                                                Workshop
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                value="seminar" id="seminar">
+                                                            <label class="form-check-label" for="seminar">
+                                                                Virtual seminar
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                value="face-to-face" id="face-to-face">
+                                                            <label class="form-check-label" for="face-to-face">
+                                                                Face-to-face
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                value="managed-service" id="managed-service">
+                                                            <label class="form-check-label" for="managed-service">
+                                                                Managed service
+                                                            </label>
+                                                        </div>
+
+
+                                                        <div class="form-group">
+                                                            <label for="comments">Tell us more...</label>
+                                                            <textarea class="form-control" id="comments" rows="3"></textarea>
+                                                        </div>
+                                                    </form>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-success text-uppercase">Let's
+                                                    make you famous</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <script
+                                        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+                                    <script
+                                        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+                                    <script
+                                        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
