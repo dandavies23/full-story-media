@@ -1,6 +1,8 @@
+/* text fixes */ 
 h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 1rem;
 
 }
 body {
@@ -10,9 +12,9 @@ body {
 }
 
 .spotlight {
-    color: #fad50f
+    color: #fad50f;
 }
-
+/* Container top fixes */
 .nav-cta-container {
     margin-top: 20px;
 }
@@ -23,8 +25,4 @@ body {
 
 .splash-container {
     margin-top: 40px
-}
-
-blockquote {
-    font-weight: bold;
 }
