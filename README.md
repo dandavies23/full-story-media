@@ -1,45 +1,47 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Full Story Media web redesign 
 
-Welcome dandavies23,
+A good journalist friend of mine, Jon Card, asked me to help "sort out" his website. And this is the approach I took for this Milestone project.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The current website is still live [here](https://fullstorymedia.co.uk/). It is built in using Wordpress as a CMS, so design and layout was largely dictated by the theme he chose.
 
-## Gitpod Reminders
+Furthermore, there is very little thought about the overall architecture of the site. With various elements of his business bolted on to the navigation - which is in alphabetical order. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Jon sent me a loose brief:**
 
-`python3 -m http.server`
+1. Present a modern and exciting shop window for our services with better design and layout including embedded videos and display photography
 
-A blue button should appear to click: *Make Public*,
+2. Enable data capture, sign-ups and make finding lead magnets easier
 
-Another blue button should appear to click: *Open Browser*.
+3. Become a base to advertise and launch products (webinars, services, book etc)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+4. Boost JC's personal brand and profile
 
-A blue button should appear to click: *Make Public*,
+My wireframe was sketched out and then designed to address the site architecture. 
 
-Another blue button should appear to click: *Open Browser*.
+Six pages were reduced to three with a cleaner layout which makes more of media assets which also help enhance Jon's personal brand and profile. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The home page become more of a landing page with several options to go to About (The Full Story) and Products (Media Secrets).
 
-## Updates Since The Instructional Video
+There are also more opportunity to explore at various points, not only to allow the user more control but also, in future, there can be more data capture about usage. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The sign-up form which is at the bottom of Home and The Full Story and at the top of Media Secrets is also data capture but also is aimed to help Jon learn more about his audience and what services they want. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Set-backs 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+I struggled with the initial design of the site (see initial wireframes) but took inspiration from the [case studies PDF](https://fullstorymedia.co.uk/wp-content/uploads/2020/04/Chief-Storytellers-2020.pdf) that a designer has created. I'm particularly pleased with the spotlight css which is in-keeping with this.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This was my first project designed using the Bootstrap4 framework and took a lot of time getting to grips with it, and also making sure I was using CMD, Gitpod and Github properly.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+My mentor also confirmed that I probably wasted too much time fleshing out the design of the wireframe. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+As a result some things were not in scope for this project. Including:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ - The spokes which nicely break up the page and encourage scrolling
+ - "Spotlight" breaks for mobile
+ - An extra sign-up form landing page
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Next steps
 
---------
+It is my intention for this site to replace the current FSM website. One possible sticking point is that Jon believes that the blogs that have been written should stay. 
 
-Happy coding!
+So I will probably install a better more modular bootstrap based theme and build the blog pages in-sympathy with what has created here. Or build these three pages in a Wordpress framework. 
