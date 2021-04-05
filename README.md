@@ -1,5 +1,7 @@
 # Full Story Media web redesign 
 
+![Multi Mock-up](/images/FSMredesign.jpg)
+
 A good journalist friend of mine, Jon Card, asked me to help "sort out" his website. And this is the approach I took for this Milestone project.
 
 The current website is still live [here](https://fullstorymedia.co.uk/). It is built in using Wordpress as a CMS, so design and layout was largely dictated by the theme he chose.
@@ -16,6 +18,10 @@ Furthermore, there is very little thought about the overall architecture of the 
 
 4. Boost JC's personal brand and profile
 
+![Initial wireframe](images/Wireframe-exampleHome.png)
+
+## Wireframing
+
 My wireframe was sketched out and then designed to address the site architecture. 
 
 Six pages were reduced to three with a cleaner layout which makes more of media assets which also help enhance Jon's personal brand and profile. 
@@ -25,6 +31,10 @@ The home page become more of a landing page with several options to go to About 
 There are also more opportunity to explore at various points, not only to allow the user more control but also, in future, there can be more data capture about usage. 
 
 The sign-up form which is at the bottom of Home and The Full Story and at the top of Media Secrets is also data capture but also is aimed to help Jon learn more about his audience and what services they want. 
+
+My wireframe designs can be [downloaded from here](https://www.dropbox.com/t/8jiDT62lFdhVZFFg) for the next 7 days. 
+
+![Finalised overworked wireframe](images/Wireframe-Homev4.png)
 
 ## Set-backs 
 
