@@ -5,15 +5,34 @@ h1, h2, h3 {
     margin-top: 1rem;
 
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fafafa;
 
 }
 
+a {
+    color: #1a8286;}
+
+a:hover {
+    color: #fad50f;
+    font-weight: bold;
+    text-decoration: none;}
+
 .spotlight {
     color: #fad50f;
 }
+
+.btn-lg {
+    padding: 2.5rem 1rem;
+    line-height: inherit;
+    text-transform: uppercase;
+    border-radius: .3rem;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
 /* Container top fixes */
 .nav-cta-container {
     margin-top: 20px;
@@ -24,5 +43,6 @@ body {
 }
 
 .splash-container {
-    margin-top: 40px
+    margin-top: 5px;
 }
+
