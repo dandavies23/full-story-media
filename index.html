@@ -1,252 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Full Story Media | Making entrepreneurs famous</title>
     <!-- favicon and tile load [need to copy across to other pages] -->
     <!-- generics -->
-<link rel="icon" href="/images/logos/favicons/favicon-32.png" sizes="32x32">
-<link rel="icon" href="/images/logos/favicons/favicon-57.png" sizes="57x57">
-<link rel="icon" href="/images/logos/favicons/favicon-76.png" sizes="76x76">
-<link rel="icon" href="/images/logos/favicons/favicon-96.png" sizes="96x96">
-<link rel="icon" href="/images/logos/favicons/favicon-128.png" sizes="128x128">
-<link rel="icon" href="/images/logos/favicons/favicon-192.png" sizes="192x192">
-<link rel="icon" href="/images/logos/favicons/favicon-228.png" sizes="228x228">
+    <link
+      rel="icon"
+      href="/images/logos/favicons/favicon-32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="/images/logos/favicons/favicon-57.png"
+      sizes="57x57"
+    />
+    <link
+      rel="icon"
+      href="/images/logos/favicons/favicon-76.png"
+      sizes="76x76"
+    />
+    <link
+      rel="icon"
+      href="/images/logos/favicons/favicon-96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      href="/images/logos/favicons/favicon-128.png"
+      sizes="128x128"
+    />
+    <link
+      rel="icon"
+      href="/images/logos/favicons/favicon-192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      href="/images/logos/favicons/favicon-228.png"
+      sizes="228x228"
+    />
 
-<!-- Android -->
-<link rel="shortcut icon" sizes="196x196" href=“/images/logos/favicons/favicon-196.png">
+    <!-- Android -->
+    <link rel="shortcut icon" sizes="196x196"
+    href=“/images/logos/favicons/favicon-196.png">
 
-<!-- iOS -->
-<link rel="apple-touch-icon" href="/images/logos/favicons/favicon-120.png" sizes="120x120">
-<link rel="apple-touch-icon" href="path/to/favicon-152.png" sizes="152x152">
-<link rel="apple-touch-icon" href="path/to/favicon-180.png" sizes="180x180">
+    <!-- iOS -->
+    <link
+      rel="apple-touch-icon"
+      href="/images/logos/favicons/favicon-120.png"
+      sizes="120x120"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="path/to/favicon-152.png"
+      sizes="152x152"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="path/to/favicon-180.png"
+      sizes="180x180"
+    />
 
-<!-- Windows 8 IE 10-->
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="/images/logos/favicons/favicon-144.png">
+    <!-- Windows 8 IE 10-->
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta
+      name="msapplication-TileImage"
+      content="/images/logos/favicons/favicon-144.png"
+    />
 
-<!— Windows 8.1 + IE11 and above —>
-<meta name="msapplication-config" content="/images/logos/favicons/browserconfig.xml" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/e8a22323b6.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <!— Windows 8.1 + IE11 and above —>
+    <meta
+      name="msapplication-config"
+      content="/images/logos/favicons/browserconfig.xml"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e8a22323b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    <!-- nav hero image -->
-    <div class="container-fluid container-hero">
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-light bg-light navbar-expand-sm">
-                    <a href="/" class="navbar-brand">Full Story Media</a>
+  <body>
+      <!-- Navbar and hamburger check HTML against "Toggler" -->
+        <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-md">
+            <div class="container-fluid">
+                <a href="/" class="navbar-brand row-menu-inner">
+                     <img
+                    src="images/logos/white-logo-fsm-nobackground-400px.png"
+                    alt="logo"
+                    width="400"
+                    height="80"
+                    class="nav-logo"
+                    />
+                </a>
 
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span></button>
-
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-                        <ul class="navbar-nav ml-auto">
-                            <li class="active nav-item ml-2">
-                                <a class="nav-link" href="/">Home</a>
-                            </li>
-                            <li class="nav-item ml-2">
-                                <a class="nav-link" href="about.html">The Full Story</a>
-                            </li>
-                            <li class="nav-item ml-2">
-                                <a class="nav-link" href="products.html">Media Secrets</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <img src="images/jonandcorinemainhero.jpg" class="img-fluid" alt="Jon and Corinne reading a newspaper Brighton promenade">
+                <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- this is dropping below the logo in sm view -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="active nav-item ml-2">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item ml-2">
+                  <a class="nav-link" href="about.html">The Full Story</a>
+                </li>
+                <li class="nav-item ml-2">
+                  <a class="nav-link" href="products.html">Media Secrets</a>
+                </li>
+              </ul>
             </div>
         </div>
-    </div>
+        </nav>
+        <div class="row"> <!-- losing image in navigation on smaller screens -->
+        <img
+          src="/images/home/jonandcorinemainhero2400.jpeg"
+          class="img-fluid header-bg"
+          alt="Jon and Corinne reading a newspaper Brighton promenade"
+        />
+      </div>
+
 
     <!-- main pitch -->
-        <div class="container pitch-container">
-            <section class="text-center">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Every business has a story <span class="spotlight">let's find yours</span></h2>
-                    </div>
-                </div>
-            </section>
-
-            <section class="pitch-bullets">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Change bullet point fa icon for a class and then replace with spyglass on desktop and fa on mobile -->
-                        <p><i class="far fa-circle"></i> We help mission-led entrepreneurs tell powerful stories about themselves.</p>
-                        <p><i class="far fa-circle"></i> The sorts of stories major broadcasters, global publishers want to tell their audiences. Stories people want to tell one another.</p>
-                        <p><i class="far fa-circle"></i> Powerful stories can travel far and wide for long periods of time and, ultimately, change the world.</p>
-                        <p><i class="far fa-circle"></i> If you’ve created a business, made a discovery or pioneered a technology or have a big idea, you need to tell the world about it.</p>
-                        <p><i class="far fa-circle"></i> Every business has a story <!-- drop a case studies hyperlink in here? -->, let’s find yours.</p>
-                    
-                    </div>
-                </div>
-            </section>
+    <div class="container pitch-container">
+      <section class="text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2>
+              Every business has a story
+              <span class="spotlight">let's find yours</span>
+            </h2>
+          </div>
         </div>
-        <!-- nav CTA -->
-            <div class="container nav-cta-container">
-                <section class="navCTAhead">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="text-center">Want to learn <span class="spotlight">more?</span></h2>
-                        </div>
-                    </div>
-                </section>
+      </section>
 
-                <!-- block of 4 solid yellow circle buttons have added cols for each button solves mobile issue  -->
-                    <section class="container circ-nav-cta">
-                        <div class="row">
-                            <div class="col d-flex justify-content-center">
-                                <a class="btn btn-lg btn-outline-warning mr-2" href="/products.html#workshops" role="button"><i class="fas fa-chalkboard-teacher"></i> Workshops</a>
-                            </div>
-                            <div class="col d-flex justify-content-center">
-                                <a class="btn btn-lg btn-outline-warning mr-2" href="/products.html#chief" role="button"><i class="fa fa-bullhorn"></i> Serviced</a>
-                            </div>
-                            <div class="col d-flex justify-content-center">
-                                <a class="btn btn-lg btn-outline-warning mr-2" href="https://www.amazon.co.uk/gp/product/1916351700?pf_rd_r=GCQ3AFGEPFPTYSAQT1J3&pf_rd_p=f20e70b1-67f9-48d1-8c78-ba616030b420" target="_blank" role="button"><i class="fa fa-book"></i> Read book</a>
-                            </div>
-                            <div class="col d-flex justify-content-center">
-                            <a class="btn btn-lg btn-outline-warning mr-2" href="/about.html" role="button"><i class="fa fa-group"></i> About us</a>
-                            </div>
+      <section class="pitch-bullets">
+        <div class="row">
+          <div class="col-12">
+            <!-- Change bullet point fa icon for a class and then replace with spyglass on desktop and fa on mobile -->
+            <p>
+              <i class="far fa-circle"></i> We help mission-led entrepreneurs
+              tell powerful stories about themselves.
+            </p>
+            <p>
+              <i class="far fa-circle"></i> The sorts of stories major
+              broadcasters, global publishers want to tell their audiences.
+              Stories people want to tell one another.
+            </p>
+            <p>
+              <i class="far fa-circle"></i> Powerful stories can travel far and
+              wide for long periods of time and, ultimately, change the world.
+            </p>
+            <p>
+              <i class="far fa-circle"></i> If you’ve created a business, made a
+              discovery or pioneered a technology or have a big idea, you need
+              to tell the world about it.
+            </p>
+            <p>
+              <i class="far fa-circle"></i> Every business has a story
+              <!-- drop a case studies hyperlink in here? -->, let’s find yours.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- nav CTA -->
+    <div class="container nav-cta-container">
+      <section class="navCTAhead">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">
+              Want to learn <span class="spotlight">more?</span>
+            </h2>
+          </div>
+        </div>
+      </section>
 
+      <!-- block of 4 solid yellow circle buttons have added cols for each button solves mobile issue  -->
+      <section class="container circ-nav-cta">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <a
+              class="btn btn-lg btn-outline-warning mr-2"
+              href="/products.html#workshops"
+              role="button"
+              ><i class="fas fa-chalkboard-teacher"></i> Workshops</a
+            >
+          </div>
+          <div class="col d-flex justify-content-center">
+            <a
+              class="btn btn-lg btn-outline-warning mr-2"
+              href="/products.html#chief"
+              role="button"
+              ><i class="fa fa-bullhorn"></i> Serviced</a
+            >
+          </div>
+          <div class="col d-flex justify-content-center">
+            <a
+              class="btn btn-lg btn-outline-warning mr-2"
+              href="https://www.amazon.co.uk/gp/product/1916351700?pf_rd_r=GCQ3AFGEPFPTYSAQT1J3&pf_rd_p=f20e70b1-67f9-48d1-8c78-ba616030b420"
+              target="_blank"
+              role="button"
+              ><i class="fa fa-book"></i> Read book</a
+            >
+          </div>
+          <div class="col d-flex justify-content-center">
+            <a
+              class="btn btn-lg btn-outline-warning mr-2"
+              href="/about.html"
+              role="button"
+              ><i class="fa fa-group"></i> About us</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- full-width-video -->
+    <div class="container video-container">
+      <section class="video">
+        <div class="embed-responsive embed-responsive-16by9 d-none d-md-block">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed/gz31tU4lePk"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </div>
 
-                        </div>
-                    </section>
-            </div>
-            <!-- full-width-video -->
-                <div class="container video-container">
-                    <section class="video">
-                        <div class="embed-responsive embed-responsive-16by9 d-none d-md-block">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gz31tU4lePk"
-                                allowfullscreen></iframe>
-                        </div>
-                    </section>
-                </div>
+    <!-- splash-CTA -->
+    <div class="container splash-container">
+      <section class="splash-cta">
+        <div class="row">
+          <div class="col-12">
+            <button
+              type="button"
+              class="btn btn-warning btn-lg btn-block"
+              data-toggle="modal"
+              data-target="#signUpModal"
+            >
+              <p class="button-cta">
+                <i class="fas fa-download"></i> Download case studies
+              </p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="modal" tabindex="-1" id="signUpModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase">What's your story?</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <!-- POST url should be replaced with db for datagrab when decided -->
+                <form
+                  action="https://formdump.codeinstitute.net/"
+                  method="POST"
+                ></form>
 
-                <!-- splash-CTA -->
-                    <div class="container splash-container">
-                        <section class="splash-cta">
+                <label for="fname">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="first_name"
+                  id="fname"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="last_name"
+                  id="lname"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="company"
+                  id="company"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email_address"
+                  id="email"
+                  required
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <p>How do you want to learn?</p>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="book"
+                  id="book"
+                />
+                <label class="form-check-label" for="book"> Read a book </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="video"
+                  id="video"
+                />
+                <label class="form-check-label" for="video">
+                  Inspiring video
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="workshop"
+                  id="workshop"
+                />
+                <label class="form-check-label" for="workshop">
+                  Workshop
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="seminar"
+                  id="seminar"
+                />
+                <label class="form-check-label" for="seminar">
+                  Virtual seminar
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="face-to-face"
+                  id="face-to-face"
+                />
+                <label class="form-check-label" for="face-to-face">
+                  Face-to-face
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="managed-service"
+                  id="managed-service"
+                />
+                <label class="form-check-label" for="managed-service">
+                  Managed service
+                </label>
+              </div>
 
-                            <div class="row">
-                                <div class="col-12">
-                                    <button type="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal"
-                                        data-target="#signUpModal">
-                                        <p class="button-cta"><i class="fas fa-download"></i> Download case studies</p>
-                                    </button>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="modal" tabindex="-1" id="signUpModal">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title text-uppercase">What's your story?</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="form-group">
-                                            <!-- POST url should be replaced with db for datagrab when decided -->
-                                            <form action="https://formdump.codeinstitute.net/" method="POST"></form>
+              <div class="form-group">
+                <label for="comments">Tell us more...</label>
+                <textarea
+                  class="form-control"
+                  id="comments"
+                  rows="3"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+          <button type="button" class="btn btn-success text-uppercase">
+            Let's make you famous
+          </button>
+        </div>
+      </div>
+    </div>
 
-                                            <label for="fname">First Name</label>
-                                            <input type="text" class="form-control" name="first_name" id="fname"
-                                                required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="lname">Last Name</label>
-                                            <input type="text" class="form-control" name="last_name" id="lname"
-                                                required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="company">Company</label>
-                                            <input type="text" class="form-control" name="company" id="company"
-                                                required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="email">Email Address</label>
-                                            <input type="email" class="form-control" name="email_address" id="email"
-                                                required aria-describedby="emailHelp">
-                                            <small id="emailHelp" class="form-text text-muted">We'll
-                                                never share your email with anyone
-                                                else.</small>
-                                        </div>
-                                        <p>How do you want to learn?</p>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="book" id="book">
-                                            <label class="form-check-label" for="book">
-                                                Read a book
-                                            </label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="video" id="video">
-                                            <label class="form-check-label" for="video">
-                                                Inspiring video
-                                            </label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="workshop"
-                                                id="workshop">
-                                            <label class="form-check-label" for="workshop">
-                                                Workshop
-                                            </label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="seminar"
-                                                id="seminar">
-                                            <label class="form-check-label" for="seminar">
-                                                Virtual seminar
-                                            </label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="face-to-face"
-                                                id="face-to-face">
-                                            <label class="form-check-label" for="face-to-face">
-                                                Face-to-face
-                                            </label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="managed-service"
-                                                id="managed-service">
-                                            <label class="form-check-label" for="managed-service">
-                                                Managed service
-                                            </label>
-                                        </div>
-
-
-                                        <div class="form-group">
-                                            <label for="comments">Tell us more...</label>
-                                            <textarea class="form-control" id="comments" rows="3"></textarea>
-                                        </div>
-                                    </form>
-
-
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-success text-uppercase">Let's
-                                    make you famous</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-                    <script
-                        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
