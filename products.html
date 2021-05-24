@@ -16,29 +16,46 @@
     <div class="container-fluid container-hero">
         <div class="row">
             <div class="col-12">
-                <nav class="navbar navbar-light bg-light navbar-expand-sm">
-                    <a href="/" class="navbar-brand">Full Story Media</a>
+                <!-- Navbar and hamburger check HTML against "Toggler" -->
+        <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-md">
+            <div class="container-fluid">
+                <a href="/" class="navbar-brand row-menu-inner">
+                     <img
+                    src="images/logos/white-logo-fsm-nobackground-400px.png"
+                    alt="logo"
+                    width="400"
+                    height="80"
+                    class="nav-logo"
+                    />
+                </a>
 
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span></button>
-
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item ml-2">
-                                <a class="nav-link" href="/">Home</a>
-                            </li>
-                            <li class="nav-item ml-2">
-                                <a class="nav-link" href="about.html">The Full Story</a>
-                            </li>
-                            <li class="nav-item ml-2">
-                                <a class="active nav-link" href="products.html">Media Secrets</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- this is dropping below the logo in sm view -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="active nav-item ml-2">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item ml-2">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item ml-2">
+                  <a class="nav-link" href="products.html">Products</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        </nav>
                 <img src="images/hero-MaryPortas.jpg" class="img-fluid" alt="Jon Card in conversation with Mary Portas">
             </div>
         </div>
