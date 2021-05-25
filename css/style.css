@@ -60,7 +60,13 @@ a:hover {
 
   /* hero banner */
 
-  .header-wrapper .header-bg-wrapper .header-bg {
+  .hero-image {
+      max-width: 100%;
+      height: auto;
+      padding-top: 80px;
+ }
+
+  /*.header-bg-wrapper .header-bg {
     position: absolute;
     right: 0;
     left: 0;
@@ -69,7 +75,7 @@ a:hover {
     overflow: hidden;
     background-position: center center;
     background-size: cover;
-}
+}*/
 
 /* Container top fixes */
 .nav-cta-container {
