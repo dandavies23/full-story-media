@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
+
 /* text fixes */ 
 h1, h2, h3 {
     text-transform: uppercase;
@@ -6,14 +8,28 @@ h1, h2, h3 {
 
 }
 
+.uppercase{
+    text-transform: uppercase; 
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fafafa;
 
 }
 
+.general-sub {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 a {
-    color: #1a8286;}
+    color: #5f4100 ;}
 
 a:hover {
     color: #fad50f;
@@ -21,7 +37,7 @@ a:hover {
     text-decoration: none;}
 
 .spotlight {
-    color: #fad50f;
+    color: #ffc107;
 }
 
 /* Button tweaks */ 
@@ -31,11 +47,12 @@ a:hover {
     text-transform: uppercase;
     border-radius: .3rem;
     letter-spacing: 0.1em;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;
+    font-family: "Roboto", sans-serif;
     font-size: 18px !important;
     border-width: 2px !important;
     margin-bottom: 8px;
 }
+/* ------------------------------------------------- Heading */
 
 /* Navbar */ 
 
@@ -85,7 +102,7 @@ a:hover {
     background-size: cover;
 }
 
-/* Container top fixes */
+/* Container fixes */
 .nav-cta-container {
     margin-top: 20px;
 }
@@ -98,3 +115,37 @@ a:hover {
     margin-top: 5px;
 }
 
+/*-------------------------------------------- Footer */
+
+footer{
+    background-color: #343a3f;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ffc107;
+}
+
+
+#footer-details {
+    padding: 20px;
+}
