@@ -38,23 +38,31 @@ a:hover {
 }
 
 /* Navbar */ 
+
 .menu-wrapper .row-menu .row-menu-inner {
     padding: 0px 36px 0px 36px;
 } 
 
-.nav-logo {
+.nav-logo-full {
     display: block;
     max-width: 80%;
     height: auto;
   }
 
+.nav-logo-mobile{
+    display:none;
+   }
+
 @media screen and (max-width: 576px){
-    .nav-logo{
-        content: url(/images/logos/white-logo-fsm-sq-512px.png);
+    .nav-logo-full {
+        display: none;
+    }
+    .nav-logo-mobile{
         display: block;
-        max-width: 16%;
+        max-width: 54%;
         height: auto;
     }
+
 }
 
 
@@ -63,10 +71,10 @@ a:hover {
   .hero-image {
       max-width: 100%;
       height: auto;
-      padding-top: 80px;
+      padding: 80px 0px 0px;
  }
 
-  /*.header-bg-wrapper .header-bg {
+  .header-bg-wrapper .header-bg {
     position: absolute;
     right: 0;
     left: 0;
@@ -75,7 +83,7 @@ a:hover {
     overflow: hidden;
     background-position: center center;
     background-size: cover;
-}*/
+}
 
 /* Container top fixes */
 .nav-cta-container {
