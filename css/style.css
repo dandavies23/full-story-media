@@ -105,6 +105,11 @@ a:hover {
 /*-------------------------------------------- Containers */
 .container-head {
     padding: 40px;
+    text-align: center;
+}
+
+.bullet-list {
+    text-align: left;
 }
 
 .bullet-list ul {
