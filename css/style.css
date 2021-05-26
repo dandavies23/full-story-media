@@ -102,18 +102,33 @@ a:hover {
     background-size: cover;
 }
 
-/* Container fixes */
+/*-------------------------------------------- Containers */
+.container-head {
+    padding: 40px;
+}
+
+.bullet-list ul {
+    list-style-type: circle;
+}
+
+.bullet-list li {
+    padding-bottom: 0.75em;
+}
+
+
 .nav-cta-container {
     margin-top: 20px;
 }
 
 .video-container {
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 .splash-container {
     margin-top: 5px;
 }
+
+
 
 /*-------------------------------------------- Footer */
 
