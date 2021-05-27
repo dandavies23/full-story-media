@@ -101,7 +101,12 @@ a:hover {
     background-position: center center;
     background-size: cover;
 }
-
+/* MOVE 
+.img-fluid-height {
+    max-height: 100%;
+    object-fit: contain;
+  }
+  */
 /*-------------------------------------------- Containers */
 .container-head {
     padding: 40px;
