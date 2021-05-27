@@ -1,4 +1,7 @@
+
+/*  Font import so don't have to load in each head */ 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
+
 
 /* text fixes */ 
 h1, h2, h3 {
@@ -82,7 +85,6 @@ a:hover {
 
 }
 
-
   /* hero banner */
 
   .hero-image {
@@ -123,6 +125,14 @@ a:hover {
 
 .bullet-list li {
     padding-bottom: 0.75em;
+}
+
+@media (max-width: 991.98px) {
+    .bullet-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 
