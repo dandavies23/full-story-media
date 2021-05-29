@@ -22,15 +22,6 @@ h4 {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fafafa;
-
-}
-
-body.page-signup {
-    background: url(..images/sign-up/signup-background.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .general-sub {
@@ -57,6 +48,15 @@ a:hover {
     color: #ffc107;
 }
 
+.signup-background {
+    background-image: url(../images/sign-up/signup-background.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Button tweaks */
 
 .btn-custom {
@@ -67,16 +67,6 @@ a:hover {
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-
-/*.btn-lg {
-    line-height: inherit;
-    text-transform: uppercase;
-    border-radius: .3rem;
-    letter-spacing: 0.1em;
-    font-family: "Lato", sans-serif;
-    font-size: 1em !important;
-    border-width: 2px !important;
-} */
 
 /* ------------------------------------------------- Heading */
 

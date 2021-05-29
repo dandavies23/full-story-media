@@ -35,6 +35,9 @@
                     <li class="nav-item ml-2">
                         <a class="nav-link" href="products.html">Products</a>
                     </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="signup.html">Sign-up</a>
+                      </li>
                 </ul>
             </div>
         </nav>
@@ -288,7 +291,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title text-uppercase">What's your story?</h5>
+                        <h3 class="modal-title text-uppercase">What's <span class="spotlight">your story?</span></h3>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -314,7 +317,7 @@
                                 else.</small>
 
                             <div class="form-group">
-                                <p>How do you want to learn (optional)</p>
+                                <p>How do you want to learn?</p>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="book" id="book">
@@ -353,17 +356,19 @@
                                     Managed service
                                 </label>
                             </div>
+                            <textarea rows="5" name="yourstory" id="yourstory" class="form-control" placeholder="Tell us your story" required></textarea>
                         </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-warning btn-custom text-uppercase">Let's
+                            make you famous!</button>
                     </div>
 
 
                 </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success text-uppercase">Let's
-                    make you famous</button>
-            </div>
+            
         </div>
         </div>
 
@@ -374,7 +379,7 @@
 
 
 
-        </div>
+    <div>
 </body>
 
 </html>

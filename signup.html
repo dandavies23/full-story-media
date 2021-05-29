@@ -2,122 +2,196 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Story Media | Making entrepreneurs famous</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/e8a22323b6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Story Media | Making entrepreneurs famous</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <!-- change this -->
+  <script src="https://kit.fontawesome.com/e8a22323b6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-<header>
-        <!-- Navbar  -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <header>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-            <a href="index.html" class="navbar-brand row-menu-inner">
-                <img src="images/logos/logo-white-full.png" class="nav-logo-full" />
-                <img src="images/logos/logo-white-mobile.png" class="nav-logo-mobile" />
-            </a>
+      <a href="index.html" class="navbar-brand row-menu-inner">
+        <img src="images/logos/logo-white-full.png" class="nav-logo-full" />
+        <img src="images/logos/logo-white-mobile.png" class="nav-logo-mobile" />
+      </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="active nav-item ml-2">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="products.html">Products</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="active nav-item ml-2">
+            <a class="nav-link" href="signup.html">Sign-up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <form action="" style="border:1px solid #ccc">
-        <div class="container">
-          <h1>Sign Up</h1>
-          <p>Please fill in this form to create an account.</p>
-          <hr>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-      
-          <label for="psw-repeat"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-      
-          <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-          </label>
-      
-          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-      
-          <div class="clearfix">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn">Sign Up</button>
-          </div>
+<section class="container" style="padding-top: 90px;">
+  <div class="signup-background">
+    <div class="col">
+      <h2>What's <span class="spotlight">your story?</span></h2>
+      <h4>Tell us a bit more about yourself and how you'd like to learn</h4>
+    </div>
+  <form>
+    <div class="form-group row">
+      <!-- POST url should be replaced with the correct database for display only  -->
+      <form action="https://formdump.codeinstitute.net/" method="POST"></form>
+    </div>
+    <div class="form-group row">
+      <label for="fname" class="col-sm-4 col-form-label">First Name:</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" name="first_name" id="fname" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="lname" class="col-sm-4 col-form-label">Last Name:</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" name="last_name" id="lname" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="email" class="col-sm-4 col-form-label">Email:</label>
+      <div class="col-sm-8">
+        <input type="email" class="form-control" name="email_address" id="email" required aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-sm-4">Learning preference</div>
+      <div class="col-sm-8">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="book" id="book">
+          <label class="form-check-label" for="book">Read a book</label>
         </div>
-      </form>
-  
-        <!-- Footer -->
-        <footer class="container-fluid">
-            <div id="footer-details" class="row">
-                <div class="col-sm-4">
-                    <h5 class="uppercase general-sub">About</h5>
-                    <p class="inline-block">
-                        We are entrepreneurial, media-savvy and believe in the power of storytelling.
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <h5 class="uppercase general-sub">Products</h5>
-                    <p class="inline-block">
-                        Learn about how to make your company famous or we can provide the hands-on help.
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <h5 class="uppercase general-sub">Social</h5>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.linkedin.com/company/fullstoryuk/">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                <span class="sr-only">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.facebook.com/fullstoryuk/">
-                                <i class="fa fa-facebook aria-hidden=" true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://twitter.com/fullstoryuk">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-    
-            </div>
-    
-    
-        </footer>
+      </div>
+    </div>    
+    <div class="form-group row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-8">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="video" id="video">
+          <label class="form-check-label" for="video">Inspiring video</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-8">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="workshop" id="workshop">
+          <label class="form-check-label" for="workshop">Workshop</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-8">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="seminar" id="seminar">
+          <label class="form-check-label" for="seminar">Virtual seminar</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-8">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="face-to-face" id="face-to-face">
+          <label class="form-check-label" for="face-to-face">Face-to-face</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-8">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="managed-service" id="managed-service">
+          <label class="form-check-label" for="managed-service">Managed service</label>
+        </div>
+      </div>
+    </div>
+
+    <textarea rows="5" name="yourstory" id="yourstory" class="form-control" placeholder="Tell us your story" required></textarea>
+
+    <div class="form-row text-center">
+      <div class="col">
+        <button type="submit" formmethod="post" class="btn btn-warning btn-custom btn-lg mt-5 mb-5">Let's make you famous!</button>
+      </div>
+    </div>
+  </form>
+</div>
+</section>
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js">
-        </script>
-    
-    </body>
-    
+
+
+  <!-- Footer -->
+<footer class="container-fluid">
+    <div id="footer-details" class="row">
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">About</h5>
+        <p class="inline-block">
+          We are entrepreneurial, media-savvy and believe in the power of storytelling.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">Products</h5>
+        <p class="inline-block">
+          Learn about how to make your company famous or we can provide the hands-on help.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h5 class="uppercase general-sub">Social</h5>
+        <ul class="list-inline social-links">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.linkedin.com/company/fullstoryuk/">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/fullstoryuk/">
+              <i class="fa fa-facebook aria-hidden=" true"></i>
+              <span class="sr-only">Facebook</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://twitter.com/fullstoryuk">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+
+</footer>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
 </html>
