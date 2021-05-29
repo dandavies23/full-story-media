@@ -3,9 +3,7 @@
 
 
 /* text fixes */
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 1rem;
@@ -138,8 +136,17 @@ a:hover {
   */
 /*-------------------------------------------- Containers */
 .container-head {
-    padding: 40px;
     text-align: center;
+    margin-bottom: 1em;
+}
+
+.container-subhead {
+    margin-bottom: 1em;
+}
+
+/* Gives all containers a bit of space */
+.container-spacing {
+    padding: 2em;
 }
 
 .bullet-list {
@@ -154,13 +161,20 @@ a:hover {
     padding-bottom: 0.75em;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
+    .bullet-list { 
+        margin-top: 1em;  
+    }
+}
+
+@media (max-width: 992px) {
     .bullet-list ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
 }
+
 
 
 .nav-cta-container {
@@ -175,76 +189,6 @@ a:hover {
     margin-top: 5px;
 }
 
-/*-------------------------------------------- Form */
-
-* {box-sizing: border-box}
-
-/* Full-width input fields */
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
 
 
 
@@ -287,4 +231,5 @@ footer {
 
 #footer-details {
     padding: 20px;
+    text-align: center; /* doesn't look great at the mo' see if the aligned buttons changes my mind */
 }
