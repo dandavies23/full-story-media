@@ -1,6 +1,6 @@
 # Full Story Media web redesign 
 
-![Multi Mock-up](/images/FSMredesign.jpg)
+![Multi Mock-up](images/readmeassets/FSMredesign.jpg)
 
 A good journalist friend of mine, Jon Card, asked me to help "sort out" his website. And this is the approach I took for this Milestone project.
 
@@ -18,7 +18,7 @@ Furthermore, there is very little thought about the overall architecture of the 
 
 4. Boost JC's personal brand and profile
 
-![Initial wireframe](images/Wireframe-exampleHome.png)
+![Initial wireframe](images/readmeassets/Wireframe-exampleHome.png)
 
 ## Wireframing
 
@@ -34,7 +34,7 @@ The sign-up form which is at the bottom of Home and The Full Story and at the to
 
 My wireframe designs can be [downloaded from here](https://www.dropbox.com/t/8jiDT62lFdhVZFFg) for the next 7 days. 
 
-![Finalised overworked wireframe](images/Wireframe-Homev4.png)
+![Finalised overworked wireframe](images/readmeassets/Wireframe-Homev4.png)
 
 ## Set-backs 
 

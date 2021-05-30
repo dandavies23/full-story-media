@@ -1,17 +1,17 @@
 /*  Font import so don't have to load in each head */
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700");
 
 /* ------------------------------------- text fixes */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 1rem;
-
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
 }
 
@@ -20,12 +20,12 @@ h4 {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #fafafa;
 }
 
 .general-sub {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 a {
-    color: #0F81FA ;
+    color: #0f81fa;
 }
 
 a:hover {
@@ -55,10 +55,8 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-
-
 
 /* ------------------------------------------------- Heading */
 
@@ -88,7 +86,6 @@ a:hover {
         max-width: 54%;
         height: auto;
     }
-
 }
 
 /* hero banner */
@@ -138,8 +135,8 @@ a:hover {
 }
 
 @media (max-width: 992px) {
-    .bullet-list { 
-        margin-top: 1em;  
+    .bullet-list {
+        margin-top: 1em;
     }
 }
 
@@ -167,7 +164,6 @@ a:hover {
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-
 
 /*-------------------------------------------- Footer */
 
@@ -199,8 +195,7 @@ footer {
     background: #ffc107;
 }
 
-
 #footer-details {
     padding: 20px;
-    text-align: center; /* doesn't look great at the mo' see if the aligned buttons changes my mind */
+    text-align: center;
 }
