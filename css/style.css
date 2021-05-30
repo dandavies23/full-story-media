@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
 
 
-/* text fixes */
+/* ------------------------------------- text fixes */
 h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
@@ -58,16 +58,7 @@ a:hover {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Button tweaks */
 
-.btn-custom {
-    font-family: "Lato", sans-serif;
-    width: fit-content;
-    margin: auto;
-    display: flex;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-}
 
 /* ------------------------------------------------- Heading */
 
@@ -119,13 +110,7 @@ a:hover {
     background-size: cover;
 }
 
-/* MOVE 
-.img-fluid-height {
-    max-height: 100%;
-    object-fit: contain;
-  }
-  */
-/*-------------------------------------------- Containers */
+/*-------------------------------------------- Containers and other furniture */
 .container-head {
     text-align: center;
     margin-bottom: 1em;
@@ -174,15 +159,15 @@ a:hover {
     margin-top: 40px;
 }
 
-
-
-
-
-/*-------------------------------------------- Heaader padding */
-
-/*#quotes-head {
-    padding-bottom: 0px;
+.btn-custom {
+    font-family: "Lato", sans-serif;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
+
 
 /*-------------------------------------------- Footer */
 
