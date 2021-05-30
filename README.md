@@ -182,7 +182,7 @@ Full details of all the steps taken and any outstanding bugs in the [Github proj
 
  
 
-<https://github.com/Amyh97/milestone-project-1/blob/master/README.md#deployment>Deployment
+Deployment
 ==========================================================================================
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/dandavies23/full-story-media), the following steps were taken:
@@ -198,8 +198,7 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github
 5.  Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
  
-
-### <https://github.com/Amyh97/milestone-project-1/blob/master/README.md#how-to-run-this-project-locally>How to run this project locally
+How to run this project locally
 
 To clone this project from GitHub:
 
@@ -221,7 +220,6 @@ git clone https://github.com/dandavies23/full-story-media
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
 
-<https://github.com/Amyh97/milestone-project-1/blob/master/README.md#credits>
 -----------------------------------------------------------------------------
 
 Technologies and Credits
