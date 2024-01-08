@@ -10,7 +10,7 @@ This website is a re-architecture and rebuild of Full Story Media (FSM) website.
 
 [Version 2](https://fullstorymedia.co.uk/) (v2) was rebuilt within a Wordpress framework for the client, informed by the architecture of the v1 but with stakeholders consulted on the layout and bugs known to be within v1 squashed. The project was built in Wordpress because the client already had a significant amount of ongoing article content which had been SEO’d but needed a design overhaul. I deployed the Uncode theme to replicate v1’s layout and the Bootstrap grid structure which works with the same principles of the Bootstrap framework. In v2 an Uncode template for the article layout and blog homepage were used.
 
-v3 is a significant rebuild of v1 with the intention of matching the MVP requirements of the Milestone as well as implementing a satisfactory project management framework, incorporating the elements of v2 with additional bug fixes and updates. V2 will continue to be upgraded when the client has further budget and more ideas of what else is on the roadmap for v2 at the end of this readme.
+[Version 3](https://dandavies23.github.io/full-story-media/) is a significant rebuild of v1 with the intention of matching the MVP requirements of the Milestone as well as implementing a satisfactory project management framework, incorporating the elements of v2 with additional bug fixes and updates. V2 will continue to be upgraded when the client has further budget and more ideas of what else is on the roadmap for v2 at the end of this readme.
 
  
 
